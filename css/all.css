@@ -81,6 +81,9 @@ table {
 a {
   transition: all .3s; }
 
+* {
+  box-sizing: border-box; }
+
 .banner-text {
   position: absolute;
   top: 50%;
@@ -109,3 +112,34 @@ a {
 
 .swiper-container li {
   position: relative; }
+
+.team-section {
+  text-align: center;
+  padding: 40px 0; }
+  .team-section h2 {
+    margin: 0 0 40px; }
+
+.team-list {
+  font-size: 0; }
+  .team-list li {
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    padding: 0 20px; }
+  .team-list img {
+    display: block;
+    margin: 0 auto; }
+  .team-list .team-list-title {
+    margin-bottom: 20px; }
+  .team-list .team-list-photo {
+    position: relative;
+    margin: 0 0 30px; }
+    .team-list .team-list-photo:hover:after {
+      content: '+';
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 40px;
+      color: #f00; }
