@@ -2,4 +2,38 @@
   position: absolute;
   top: 50%;
   left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+
+  h2 {
+    margin: 0 0 20px;
+  }
+
+  p {
+    margin: 0 0 20px;
+  }
+
+  a {
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+
+    &:hover {
+      background: #fff;
+      color: #000;
+    }
+  }
+}
+.swiper-container {
+  li,
+  img {
+    width: 100%;
+  }
+  li {
+    position: relative;
+  }
 }

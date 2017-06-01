@@ -1,3 +1,8 @@
+.container {
+  margin: 0 auto;
+  max-width: 1190px;
+  padding: 0 10px; }
+
 header {
   overflow: hidden; }
 
@@ -56,8 +61,6 @@ footer, header, hgroup, menu, nav, section {
 
 body {
   line-height: 1;
-  margin: 0 auto;
-  width: 1170px;
   font-family: "Open Sans", sans-serif; }
 
 ol, ul {
@@ -75,7 +78,34 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+a {
+  transition: all .3s; }
+
 .banner-text {
   position: absolute;
   top: 50%;
-  left: 50%; }
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center; }
+  .banner-text h2 {
+    margin: 0 0 20px; }
+  .banner-text p {
+    margin: 0 0 20px; }
+  .banner-text a {
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #fff; }
+    .banner-text a:hover {
+      background: #fff;
+      color: #000; }
+
+.swiper-container li,
+.swiper-container img {
+  width: 100%; }
+
+.swiper-container li {
+  position: relative; }
