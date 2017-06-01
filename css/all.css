@@ -84,6 +84,11 @@ a {
 * {
   box-sizing: border-box; }
 
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both; }
+
 .banner-text {
   position: absolute;
   top: 50%;
@@ -196,3 +201,66 @@ a {
     background: #788492;
     color: #fff;
     border-radius: 5px; }
+
+.contact-section {
+  background: url("../img/bg-contact.jpg") 50% 50% no-repeat/cover;
+  padding: 100px 0;
+  color: #fff; }
+  .contact-section h2 {
+    text-align: center;
+    margin: 0 0 30px; }
+
+.contact-info {
+  width: 472px;
+  float: left;
+  max-width: 48%; }
+  .contact-info h3 {
+    margin: 0 0 10px; }
+  .contact-info p {
+    margin: 0 0 20px; }
+  .contact-info .sub-info {
+    font-size: 14px;
+    color: #bface2; }
+    .contact-info .sub-info p {
+      margin: 0; }
+    .contact-info .sub-info a {
+      color: #bface2; }
+
+.contact-form {
+  width: 570px;
+  float: right; }
+  .contact-form .f-row {
+    margin: 0 0 10px; }
+  .contact-form .f-cell {
+    width: 49%;
+    float: left; }
+    .contact-form .f-cell:last-child {
+      float: right; }
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    border: 0;
+    padding: 5px;
+    background: #fff;
+    border-radius: 3px;
+    font: 16px/1.25 "Open Sans", sans-serif;
+    width: 100%; }
+
+.contact-social {
+  margin: 0 0 10px; }
+  .contact-social li {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 4px 0 0; }
+  .contact-social a {
+    display: block;
+    width: 42px;
+    height: 42px;
+    background: url("../img/bg-social.png") no-repeat;
+    font-size: 0; }
+  .contact-social .cs-fb a {
+    background-position: 0 0; }
+  .contact-social .cs-tw a {
+    background-position: -57px 0; }
+  .contact-social .cs-g a {
+    background-position: -114px 0; }

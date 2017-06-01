@@ -1,0 +1,93 @@
+.contact-section {
+  background: url("../img/bg-contact.jpg") 50% 50% no-repeat / cover;
+  padding: 100px 0;
+  color: #fff;
+
+  h2 {
+    text-align: center;
+    margin: 0 0 30px;
+  }
+}
+.contact-info {
+  width: 472px;
+  float: left;
+  max-width: 48%;
+
+  h3 {
+    margin: 0 0 10px;
+  }
+  p {
+    margin: 0 0 20px;
+  }
+
+  .sub-info {
+    font-size: 14px;
+    color: #bface2;
+    p {
+      margin: 0;
+    }
+    a {
+      color: #bface2;
+    }
+  }
+}
+.contact-form {
+  width: 570px;
+  float: right;
+
+  .f-row {
+    margin: 0 0 10px;
+  }
+
+  .f-cell {
+    width: 49%;
+    float: left;
+
+    &:last-child {
+      float: right;
+    }
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    border: 0;
+    padding: 5px;
+    background: #fff;
+    border-radius: 3px;
+    font: 16px/1.25 $font;
+    width: 100%;
+  }
+
+}
+
+.contact-social {
+  margin: 0 0 10px;
+  li {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 4px 0 0;
+  }
+  a {
+    display: block;
+    width: 42px;
+    height: 42px;
+    background: url("../img/bg-social.png") no-repeat;
+    font-size: 0;
+  }
+  .cs-fb {
+    a {
+      background-position: 0 0;
+    }
+  }
+  .cs-tw {
+    a {
+      background-position: -57px 0;
+    }
+  }
+  .cs-g {
+    a {
+      background-position: -114px 0;
+    }
+  }
+}
