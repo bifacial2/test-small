@@ -1,0 +1,35 @@
+header {
+  overflow: hidden;
+}
+
+h1 {
+  color: #44c0c2;
+  font-family: 'Lobster';
+  font-size: 44pt;
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+nav li {
+  float: left;
+
+}
+
+nav li a {
+  display: block;
+  text-decoration: none;
+  color: #484c55;
+  padding: 44px 20px;
+  font-size: 15px;
+  border-bottom: 3px solid transparent;
+
+}
+
+nav li a:hover {
+  background-color: #f8f9fb;
+  border-bottom: 3px solid #49cbcd;
+  color: #49cbcd;
+}
